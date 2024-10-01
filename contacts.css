@@ -1,0 +1,56 @@
+.contact-section {
+    text-align: center; /* Centers the content */
+    padding: 20px;
+    font-size: 16px; /* Adjusts the text size */
+    color: #333; /* Dark text for readability */
+    background-color: #F5F5F5;
+}
+
+.social-links {
+    margin: 20px 0; /* Adds space around the social links */
+    padding: 0;
+    list-style: none; /* Removes default list styling */
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px; /* Icon size */
+    display: inline-block; /* Aligns icons in a row */
+    width: 50px; /* Sets a fixed width for consistency */
+    height: 50px; /* Sets a fixed height for consistency */
+    line-height: 50px; /* Centers the icon vertically */
+    border-radius: 50%; /* Circular background */
+    color: white; /* Icon color */
+    background-color: #555; /* Default background */
+    transition: transform 0.3s ease; /* Smooth scaling effect on hover */
+}
+
+.social-icon.facebook {
+    background-color: #3b5998; /* Facebook's brand color */
+}
+
+.social-icon.instagram {
+    background: linear-gradient(to right, #833AB4, #C13584, #E1306C, #FDCB5C); /* Instagram gradient */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+    cursor: pointer;
+}
+
+/* Email Button Styles */
+.email-link {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    box-shadow: 0 2px #666; /* Adds a shadow for 3D effect */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.email-link:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
