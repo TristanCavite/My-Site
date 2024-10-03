@@ -8,10 +8,10 @@
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
-    padding-top: 100px; /* Reduced from 30px to tighten the upper space */
+    padding-top: 100px; 
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 30px; /* Maintain the original padding at the bottom */
+    padding-bottom: 30px; 
     
 }
 .container1 .main-title{
@@ -19,8 +19,8 @@
 	margin : 0px auto;
 	text-align: center;
 	font-family: helvetica;
-    margin-top: 0px; /* If there's a top margin causing extra space, reduce or remove it */
-    margin-bottom: 20px; /* Adjust bottom margin to control spacing between title and content */
+    margin-top: 0px; 
+    margin-bottom: 20px; 
 }
 .container1 .main-title h1{
 	position: relative;
@@ -28,7 +28,7 @@
 	color: #242223;
 	margin-bottom: 30px;
 	display: inline-block;
-    margin-bottom: 20px; /* Reduced from 30px to tighten up the layout */
+    margin-bottom: 20px; 
 }
 .container1 .main-title h1::before{
 	content: '';
@@ -157,13 +157,13 @@
 
 @media(max-width: 768px) {
     .container1 {
-        padding-top: 15px; /* Even tighter on smaller screens */
+        padding-top: 15px; 
         padding-bottom: 20px;
     }
 }
 
 @media(max-width: 568px) {
     .container1 .main-title h1 {
-        margin-bottom: 15px; /* Smaller bottom margin for smaller screens */
+        margin-bottom: 15px; 
     }
 }

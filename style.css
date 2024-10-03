@@ -16,8 +16,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    position: fixed; /* Fixed positioning */
-    top: 0; /* Align to top */
+    position: fixed; 
+    top: 0;
     left: 0;
     right: 0;
     width: 100%;
@@ -53,7 +53,7 @@ header{
 
     display: flex;
     justify-content: flex-end;
-    align-items: center; /* Align items vertically in the center */
+    align-items: center; 
     width: auto;
     margin: 0;
     padding: 0;
@@ -99,8 +99,8 @@ header{
     width: 100%; 
     left: 0; 
     position: absolute;
-    background-color: white; /* Color of the underline or bar */
-    transition: width 0.3s ease; /* Smooth transition for the animation */
+    background-color: white; 
+    transition: width 0.3s ease; 
     height: 2px;
 }
 
@@ -109,23 +109,23 @@ header{
 
 
 .logo {
-    color: white; /* Adjust color as needed */
+    color: white; 
     text-decoration: none;
-    font-size: 2em; /* Increase the font size for bigger logo */
-    font-weight: bold; /* Make the logo bold */
-    font-family: 'Arial', sans-serif; /* Change to a unique font if you prefer */
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Optional shadow for depth */
+    font-size: 2em; 
+    font-weight: bold; 
+    font-family: 'Arial', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
     display: flex;
-    align-items: center; /* Center logo text vertically */
+    align-items: center; 
     padding: 10px 15px;
 }
 
-/* Optional: Add a graphic element using a pseudo-element */
+
 .logo::before {
-    margin-right: 10px; /* Space between icon and text */
+    margin-right: 10px; 
     display: inline-block;
-    height: 40px; /* Match this to your preference */
-    width: 40px; /* Match this to your preference */
+    height: 40px;
+    width: 40px; 
     background-size: cover;
 }
 
@@ -145,45 +145,45 @@ body{
     background: url('assets/images/bg.png') no-repeat center center/cover;
     height: 100vh;
     display: flex;
-    align-items: center;  /* Align items vertically */
-    justify-content: left; /* Align content to the left */
-    text-align: left; /* Text alignment to the left */
-    padding-left: 10%; /* Padding from the left to not stick to the edge */
+    align-items: center;  
+    justify-content: left;
+    text-align: left; 
+    padding-left: 10%; 
     color: white;
 }
 
 .hero-content {
-    max-width: 960px; /* Optional: Limits the width of the content */
+    max-width: 960px; 
 }
 
 
 .hero-content h1 {
-    font-family: 'Playfair Display', serif; /* Setting Playfair Display as the font */
-    font-size: 4em; /* Increasing the font size */
-    font-weight: 700; /* Make the font bolder if needed */
-    color: white; /* Ensures text is white */
+    font-family: 'Playfair Display', serif;
+    font-size: 4em; 
+    font-weight: 700; 
+    color: white; 
     text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-    margin: 0; /* Removes default margin */
-    line-height: 1.1; /* Reduces the space between lines */
+    margin: 0; 
+    line-height: 1.1; 
 }
 
 .hero-content p {
     font-family: 'Playfair Display', serif;
-    font-size: 2em; /* Slightly larger paragraph text */
+    font-size: 2em; 
     color: white;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-    margin: 5px; /* Removes default margin */
-    line-height: 1.2; /* Keeps the paragraph text closer */
+    margin: 5px; 
+    line-height: 1.2; 
     
 }
 
 .hero-content button {
     margin-top: 40px;
-    padding: 12px 25px; /* Slightly larger button */
-    background-color: orangered; /* Orange color */
+    padding: 12px 25px; 
+    background-color: orangered; 
     border: none;
     color: white;
-    font-size: 1.2em; /* Larger font size for the button */
+    font-size: 1.2em; 
     cursor: pointer;    
     border-radius: 5px;
 }
@@ -201,12 +201,12 @@ body{
 
 .about-me .container {
     display: flex;
-    justify-content: center; /* Aligns children (profile and content) on the center */
-    align-items: start; /* Aligns items to the top */
+    justify-content: center; 
+    align-items: start; 
     padding: 20px;
     max-width: 1200px;
-    margin-left: auto; /* Centered layout instead of 300px left */
-    margin-right: auto; /* Centered layout */
+    margin-left: auto;
+    margin-right: auto; 
     margin-top: 100px;
 }
     
@@ -226,8 +226,8 @@ body{
 }
 
 .content-right {
-    flex: 2; /* Takes up 2 portions of the container, making it larger than the photo section */
-    padding-left: 50px; /* Adds some space between the photo and the content */
+    flex: 2; 
+    padding-left: 50px; 
 }
 
 
@@ -241,8 +241,8 @@ body{
 
 
 .tab-content p {
-    font-size: 15px; /* Text size */
-    line-height: 1.8; /* Adjust the space between lines */
+    font-size: 15px; 
+    line-height: 1.8; 
     color: #666;
     font-family: 'Roboto', sans-serif;
 }
@@ -270,7 +270,7 @@ body{
     }
 
     .hero-content h1 {
-        font-size: 3em; /* Slightly smaller */
+        font-size: 3em; 
     }
 
     .profile-photo, .content-right {
@@ -284,7 +284,7 @@ body{
 
 @media (max-width: 480px) {
     .hero-content h1 {
-        font-size: 2em; /* Suitable for small devices */
+        font-size: 2em; 
     }
 }
 
@@ -296,28 +296,28 @@ body{
     about-me .container {
         display: flex;
         flex-direction: column;
-        align-items: center; /* This ensures all content is aligned to the center */
-        text-align: center; /* Centers the text within the container */
-        padding: 20px; /* Adjust padding as needed for your design */
-        width: 100%; /* Uses full width to center everything within the viewport */
-        margin: auto; /* Further ensures centering by auto adjusting margins */
+        align-items: center; 
+        text-align: center; 
+        padding: 20px; 
+        width: 100%; 
+        margin: auto; 
     }
 
     .profile-photo, .content-right {
-        width: 100%; /* Full width for smaller devices */
-        order: 2; /* Ensures the photo is positioned after the text if necessary */
+        width: 100%;
+        order: 2; 
     }
 
     .tab-content {
-        max-width: 100%; /* Allows text container to fill the space */
+        max-width: 100%;
         padding: 20px;
         margin-right: 40px;
-        text-align: center; /* Ensures text within this div is centered */
+        text-align: center; 
     }
 
-    /* Adjusting hero section header font size for smaller screens */
+  
     .hero-content h1 {
-        font-size: 30px; /* Adjust the size as needed */
+        font-size: 30px; 
     }
 
 
@@ -327,8 +327,8 @@ body{
    
     .menu-toggle {
         position: absolute;
-        clip: rect(0 0 0 0); /* Makes the checkbox invisible but accessible */
-        clip-path: inset(50%); /* Better, newer way to hide content */
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%); 
         height: 1px;
         width: 1px;
         margin: -1px;
@@ -339,18 +339,18 @@ body{
 
     .navbar {
         position: absolute;
-        top: 60px; /* Adjust based on header height */
+        top: 60px; 
         left: 0;
         right: 0;
-        background: #333; /* Match header background */
+        background: #333;
         display: none;
         flex-direction: column;
-        align-items: center; /* Center-align the navigation links */
+        align-items: center;
         width: 100%;
     }
 
     .menu-toggle:checked + .hamburger + .navbar {
-        display: flex; /* Show the navbar when hamburger is clicked */
+        display: flex; 
         flex-direction: column;
         width: 100%;
     }
@@ -363,14 +363,14 @@ body{
         display: block;
         width: 100%;
         text-align: center;
-        padding: 10px; /* Larger touch targets for mobile */
+        padding: 10px; 
     }
 }
 
 .animated-text {
-    opacity: 0; /* Start with the text being invisible */
-    transform: translateX(-100px); /* Start 100px to the left of its starting position */
-    animation: slideIn 0.8s forwards; /* Animation named slideIn, lasts 0.8s, and 'forwards' keeps the final state */
+    opacity: 0; 
+    transform: translateX(-100px); 
+    animation: slideIn 0.8s forwards; 
 }
 
 @keyframes slideIn {
